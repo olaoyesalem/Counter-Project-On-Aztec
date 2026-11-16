@@ -1,7 +1,0 @@
-[package]
-name = "counter_test"
-type = "lib"
-
-[dependencies]
-aztec = { git="https://github.com/AztecProtocol/aztec-nr", tag="v5.2.0", directory="aztec" }
-counter_contract = { path = "../counter_contract" }
